@@ -1,0 +1,424 @@
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    background: rgb(0, 0, 0);
+                    font-family: 'Roboto', sans-serif;
+                    color: #fff;
+                    padding-top: 118px;
+                }
+                
+                .imagen_icono_logo {
+                    display: block;
+                    margin-left: 100px;
+                }
+                
+                .enlaces_del_encabezado ul {
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                }
+                
+                li {
+                    display: inline-block;
+                    margin: 0 1.5rem;
+                }
+                
+                .enlace_a_todos {
+                    color: #666;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    text-decoration: none;
+                    font-size: 1rem;
+                }
+                
+                .encabezado {
+                    position: fixed;
+                    top: 0;
+                    background-color: rgb(255, 255, 255);
+                    width: 100%;
+                    height: 118px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 45px;
+                    z-index: 100;
+                }
+                
+                .formulario_busqueda {}
+                
+                .contedido_cuerpo {
+                    overflow: hidden;
+                    background-color: rgb(0, 0, 0);
+                    width: 100%;
+                    height: 6800px;
+                }
+                
+                .article_logo {
+                    overflow: hidden;
+                    /*
+        background: blue;
+        */
+                    height: 850px;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+                
+                .caja_letras_logo {
+                    /*
+        background-color: red;
+        */
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    position: relative;
+                    z-index: 60;
+                }
+                
+                .h1_titulo {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 5rem;
+                    position: absolute;
+                    top: 50%;
+                    right: -200px;
+                    transform: translateX(15%);
+                }
+                
+                .h3_titulo {
+                    margin-top: -10px;
+                    padding: 0;
+                    font-size: 1rem;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateX(420%);
+                }
+                
+                .invisible {
+                    background: -webkit-linear-gradient(left, rgb(30, 30, 30) 0%, rgba(250, 250, 250, 0) 40%);
+                    /* Chrome10-25,Safari5.1-6 */
+                    position: absolute;
+                    width: 1280px;
+                    height: 850px;
+                    z-index: 50;
+                }
+                
+                .article_nuestro_cursos {
+                    margin: 0;
+                    padding: 0;
+                    /*background-color: chocolate;*/
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 2rem;
+                }
+                
+                .article_cursos_1 {
+                    overflow: hidden;
+                    margin: 0;
+                    padding: 0;
+                    /*background-color: rgb(42, 80, 37);*/
+                    width: 100%;
+                    height: 850px;
+                }
+                
+                .letras_h2_2 {
+                    margin: 0;
+                    padding: 0;
+                    /*background-color: blue;*/
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 2.5rem;
+                }
+                
+                .imagenes_icono_escritorio {
+                    /*
+    background-color: rebeccapurple;
+    */
+                    width: 100%;
+                    height: 650px;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .imagen_icono_html {
+                    position: absolute;
+                    left: 665px;
+                }
+                
+                .imagen_escritorio_html {
+                    position: absolute;
+                    right: 508px;
+                }
+                
+                .booton_get_contenedor {
+                    /*background-color: rgb(60, 140, 194);*/
+                    width: 100%;
+                    height: 100PX;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .boton_get_cursos {
+                    background-color: aquamarine;
+                    color: #fff;
+                    display: block;
+                    font-size: 1.5rem;
+                    margin: 20px;
+                    padding: 20px 50px;
+                    text-decoration: none;
+                    border-radius: 50px;
+                }
+                
+                .article_cursos_2 {
+                    overflow: hidden;
+                    margin: 0;
+                    padding: 0;
+                    /*background-color: rgb(84, 167, 73);*/
+                    width: 100%;
+                    height: 850px;
+                }
+                
+                .imagen_icono_css {
+                    position: absolute;
+                    left: 670px;
+                }
+                
+                .imagen_escritorio_css {
+                    position: absolute;
+                    right: 210px;
+                }
+                
+                .article_cursos_3 {
+                    overflow: hidden;
+                    margin: 0;
+                    padding: 0;
+                    /*background-color: rgb(42, 80, 37);*/
+                    width: 100%;
+                    height: 850px;
+                }
+                
+                .imagen_icono_js {
+                    position: absolute;
+                    left: 610px;
+                }
+                
+                .imagen_escritorio_js {
+                    position: absolute;
+                    right: 300px;
+                }
+                
+                .article_cursos_4 {
+                    overflow: hidden;
+                    margin: 0;
+                    padding: 0;
+                    /*background-color: rgb(20, 14, 46);*/
+                    width: 100%;
+                    height: 850px;
+                }
+                
+                .imagen_icono_php {
+                    position: absolute;
+                    left: 530px;
+                }
+                
+                .imagen_escritorio_php {
+                    position: absolute;
+                    right: 485px;
+                }
+                
+                .article_cursos_5 {
+                    overflow: hidden;
+                    margin: 0;
+                    padding: 0;
+                    /*background-color: rgb(42, 80, 37);*/
+                    width: 100%;
+                    height: 850px;
+                }
+                
+                .imagen_icono_python {
+                    position: absolute;
+                    left: 550px;
+                }
+                
+                .imagen_escritorio_python {
+                    position: absolute;
+                    right: 160px;
+                }
+                
+                .articulo_invitacion {
+                    overflow: hidden;
+                    /*background-color: rgb(70, 18, 54);*/
+                    width: 100%;
+                    height: 1100px;
+                }
+                
+                .imagen_amigos {
+                    overflow: hidden;
+                    /*background-color: rgb(197, 68, 158);*/
+                    width: 100%;
+                    height: 850px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .texto_animacion {
+                    overflow: hidden;
+                    /*background-color: rgb(17, 74, 107);*/
+                    width: 100%;
+                    height: 150px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .articulo_despedida {
+                    overflow: hidden;
+                    /*background: blue;*/
+                    height: 500px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgb(255, 255, 255);
+                    color: #000;
+                }
+                
+                .texto_despedida {
+                    position: absolute;
+                    left: 400px;
+                }
+                
+                .caja_deimagen_logo_despedida {
+                    position: absolute;
+                    right: 430px;
+                }
+                
+                .pie_de_pagina {
+                    overflow: hidden;
+                    /*background-color: #333;*/
+                    width: 100%;
+                    height: 350px;
+                }
+                
+                .paraf {
+                    overflow: hidden;
+                    /*background-color: rgb(64, 144, 131);*/
+                    width: 100%;
+                    height: 50px;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.5rem;
+                }
+                
+                .iconos_de_piepagina {
+                    background-color: rgb(255, 255, 255);
+                    overflow: hidden;
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /*background-color: aqua;*/
+                }
+                
+                .j_icon_pie {
+                    margin: 50px;
+                }
+                
+                .tic {
+                    border-radius: 8px;
+                }
+                
+                .tex_contactos {
+                    overflow: hidden;
+                    /*background-color: rgb(45, 61, 107);*/
+                    width: 100%;
+                    height: 50px;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 2rem;
+                }
+                /*
+
+Google Icons
+    Material Icons
+       https://fonts.googleapis.com/css?family=Material+Icons
+    Material Icons Outlined
+       https://fonts.googleapis.com/css?family=Material+Icons+Outlined
+    Material Icons Two Tone
+       https://fonts.googleapis.com/css?family=Material+Icons+Two+Tone
+    Material Icons Rounded
+       https://fonts.googleapis.com/css?family=Material+Icons+Round
+    Material Icons Sharp
+       https://fonts.googleapis.com/css?family=Material+Icons+Sharp
+*/
+                
+                .texto_comunicacion {
+                    overflow: hidden;
+                    width: 100%;
+                    height: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /*background-color: aqua;*/
+                }
+                
+                .contenedor_gmail {
+                    overflow: hidden;
+                    width: 350px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /*background-color: rgb(71, 30, 50);*/
+                    font-size: 1.5rem;
+                }
+                
+                .contenedor_telefono {
+                    overflow: hidden;
+                    width: 220px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /*background-color: rgb(81, 158, 122);*/
+                    font-size: 1.5rem;
+                }
+                
+                .contenedor_casa {
+                    overflow: hidden;
+                    width: 350px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /*background-color: rgb(155, 67, 27);*/
+                    font-size: 1.5rem;
+                }
+                
+                .texto_copy {
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /*background-color: rgb(223, 193, 179);*/
+                }
