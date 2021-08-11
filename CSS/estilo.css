@@ -46,7 +46,20 @@ li {
     z-index: 100;
 }
 
-.formulario_busqueda {}
+.texto_form ::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.formulario_busqueda {
+    border-radius: 50px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.lupa {
+    color: black;
+    font-size: 1.5rem;
+}
 
 .contedido_cuerpo {
     overflow: hidden;
